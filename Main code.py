@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 # Provinces, sectors, and source folder
-Prov = ["ab", "atl", "bc", "can", "mb", "nb", "nl", "ns", "on", "pe", "qc", "sk", "ter"]
+Prov = ["ab", "atl", "bc", "bct", "can", "mb", "nb", "nl", "ns", "on", "pe", "qc", "sk", "ter"]
 Sec = ["com", "res", "tra", "ind", "ind template"]
 source_folder = r'C:\Users\anik1\Desktop\Work\LEAP\leap-canada all scenarios_sperry et al._2023-03-16'
 
@@ -14,10 +14,10 @@ source_folder = r'C:\Users\anik1\Desktop\Work\LEAP\leap-canada all scenarios_spe
 row_years = 10 - 2  # Row index for the years (common for both AGR and other files)
 row_values = 12 - 2  # Row index for the values (common for both AGR and other files)
 agr_name_row = 6 - 2  # Row index for the name in AGR.xlsx
-default_name_row = 7 - 2  # Row index for the name in other files
+default_name_row = 8 - 2  # Row index for the name in other files
 
 # CSV file name (can be changed here)
-csv_file_name = "Total_energy_end_use_data.csv"  # Output CSV file name
+csv_file_name = "Total_energy_end_use_data3.csv"  # Output CSV file name
 
 file_paths = []
 
